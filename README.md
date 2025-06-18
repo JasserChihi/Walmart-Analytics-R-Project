@@ -8,13 +8,13 @@ Ce projet en R présente une analyse exploratoire et statistique d’un jeu de d
 
 •Colonnes analysées :
 
-   •Store
+   Store
   
-   •Weekly_Sales
+   Weekly_Sales
   
-   •Temperature
+   Temperature
 
-   •CPI (Consumer Price Index)
+   CPI (Consumer Price Index)
 
 🧪 Analyse des données
 
