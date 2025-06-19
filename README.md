@@ -77,6 +77,18 @@ boxplot(walmart$Weekly_Sales, main="Weekly_Sales", sub=paste("Outlier rows:", bo
 boxplot(walmart$CPI, main="CPI", sub=paste("Outlier rows:", boxplot.stats(walmart$CPI)$out))
 ```
 
+#### 📊 Histogramme
+```r
+
+library(ggplot2)
+# Basic histogram
+ggplot(walmart, aes(x=walmart$Temperature)) + geom_histogram()
+ggplot(walmart, aes(x=walmart$Temperature)) + geom_histogram(binwidth=1)
+# Change colors
+p<-ggplot(walmart, aes(x=walmart$Age)) + geom_histogram(color="green", fill="pink")
+р
+```
+
 #### 📊 Visualisation avec ggplot2
 ```r
 library(ggplot2)
