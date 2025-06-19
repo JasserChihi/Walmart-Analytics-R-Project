@@ -5,6 +5,27 @@ L’objectif est de comprendre la distribution des ventes et d’étudier l’im
 
 ---
 
+## Table des matières
+
+1. [🛒 Introduction](#-analyse-des-ventes-hebdomadaires---walmart-projet-r)
+2. [📁 Données](#-données)
+3. [🧪 Analyses réalisées](#-analyses-réalisées)
+    - [🔢 Statistiques descriptives (Store)](#-statistiques-descriptives-variable--store)
+    - [📉 Analyse bivariée](#-analyse-bivariée)
+        - [📊 Régression linéaire CPI vs Weekly Sales](#-régression-linéaire-entre-cpi-et-weekly-sales)
+        - [🔄 Corrélation Store et Weekly_Sales](#-corrélation-entre-store-et-weekly_sales)
+    - [📈 Visualisations](#-visualisations)
+        - [📌 Scatter Plot : Température vs Ventes](#-scatter-plot--température-vs-ventes-hebdomadaires)
+        - [🌈 Densité des distributions (skewness)](#-densité-des-distributions-avec-skewness)
+        - [📦 Boxplots](#-boxplots)
+        - [📊 Histogramme](#-histogramme)
+        - [📊 Visualisation avec ggplot2](#-visualisation-avec-ggplot2)
+4. [🚀 Pour démarrer](#-pour-démarrer)
+5. [🔧 Packages utilisés](#-packages-utilisés)
+6. [📄 À propos](#-à-propos)
+
+---
+
 ## 📁 Données
 
 - **Fichier utilisé** : `Walmart.csv`
